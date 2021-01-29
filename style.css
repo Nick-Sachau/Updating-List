@@ -1,0 +1,176 @@
+*, ::after, ::before {
+    padding: 0;
+    margin: 0;
+}
+ 
+html {
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
+ 
+body {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    justify-content: space-evenly;
+    margin: auto auto;
+}
+ 
+.first-col {
+    background-color: rgb(116, 203, 206);
+    flex: 278px 0 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
+* {
+    color: black;
+}
+ 
+h4 {
+    margin-bottom: 40px;
+}
+ 
+input {
+    width: 90%;
+    margin-bottom: 10px;
+    border: 0;
+    border-bottom: black solid 1px;
+    background-color: rgba(0, 0, 0, 0%);
+    margin-top: 3px;
+}
+ 
+.second-col {
+    background-color: rgb(79, 175, 179);
+    flex: 520px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 125px;
+    margin-left: 10px;
+}
+ 
+.col {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+ 
+.col label, .col input {
+    flex: 125px 0 0;
+}
+ 
+.space {
+    margin-bottom: 20px;
+}
+ 
+.lessspace {
+    margin-bottom: 5px;
+}
+ 
+.col label.bags {
+    flex: 150px 0 0;
+    align-self: start;
+}
+ 
+.col input.bags {
+    flex: 70px 0 0;
+}
+ 
+.meals {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center
+}
+ 
+.col .meals div label {
+    flex: 20px 0 0;
+    align-items: center;
+    margin-bottom: 0;
+}
+ 
+.col .meals div input {
+    flex: 20px 0 0;
+    align-items: center;
+    margin-bottom: 0;
+}
+ 
+.extras label {
+    flex: 170px 0 0;
+    align-items: center;
+    margin-bottom: 0;
+}
+ 
+.extras input {
+    flex: 20px 0 0;
+    align-items: center;
+    margin-bottom: 0;
+}
+ 
+button {
+    font-size: larger;
+    color: white;
+    background: rgb(60, 149, 184);
+}
+ 
+select {
+    height: 1.45em;
+}
+ 
+#print {
+    height: 1.20rem;
+    font-size: small;
+    margin-left: 10px;
+}
+ 
+.second-col .col label{
+    flex: 100px 0 0;
+}
+.second-col .col input{
+    flex: 125px 0 0;
+}
+ 
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 90%
+}
+ 
+.row input{
+    margin-left: 10px;
+}
+.bags{
+    height: 1.1rem;
+}
+ 
+#names{
+    margin-top: 30px;
+    columns: 1;
+    width: 90%;
+}
+ 
+span{
+    margin-right: 5px;
+    padding-right: 5px;
+    border-right: 1px solid black;
+}
+ 
+#success{
+    height: 1.5rem;
+    font-size: 1.5rem;
+}
+ 
+#outreturnDate, #outleaveDate{
+    width: 129px;
+    margin:0px 5px;
+}
+
+ li:hover {
+    cursor: pointer;
+}
